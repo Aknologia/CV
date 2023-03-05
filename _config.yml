@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: Brewen Couaran
 description: Brewen Couaran's CV
+email: brewen.couaran@protonmail.com
+baseurl: "/CV"
