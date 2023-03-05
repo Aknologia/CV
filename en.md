@@ -18,3 +18,23 @@ title: Brewen Couaran's CV
   * ![CSS](https://img.shields.io/badge/-CSS%20(7/10)-1572B6?logo=css3&logoColor=white)
   * ![PHP](https://img.shields.io/badge/-PHP%20(4/10)-777BB4?logo=php&logoColor=white)
   * ![SQL](https://img.shields.io/badge/-SQL%20(6/10)-4479A1?logo=mysql&logoColor=white)
+
+* _Frameworks_:
+  * ![React](https://img.shields.io/badge/-React%20(6/10)-61DAFB?logo=react&logoColor=black)
+  * ![Vue](https://img.shields.io/badge/-Vue%20(7/10)-4FC08D?logo=vue.js&logoColor=white)
+  * ![NestJS](https://img.shields.io/badge/-NestJS%20(8/10)-E0234E?logo=nestjs&logoColor=white)
+  * ![Express](https://img.shields.io/badge/-Express%20(9/10)-000000?logo=express&logoColor=white)
+  * ![Node.js](https://img.shields.io/badge/-Node.js%20(9/10)-339933?logo=node.js&logoColor=white)
+  * ![Flutter](https://img.shields.io/badge/-Flutter%20(7/10)-02569B?logo=flutter&logoColor=white)
+
+## Projects
+
+  * **aknologia.dev** :
+    * API: [Aknologia/Aknologia.DEV](https://github.com/Aknologia/Aknologia.DEV)
+      * API REST back-end
+      * Used technologies:
+        * [NestJS](https://nestjs.com/)
+        * [TypeScript](https://www.typescriptlang.org/)
+        * [MongoDB](https://www.mongodb.com/)
+        * [Docker](https://www.docker.com/)
+        * [GitHub Actions](https://github.com/features/actions)
