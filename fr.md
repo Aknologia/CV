@@ -1,0 +1,3 @@
+page: fr
+---
+Test page
