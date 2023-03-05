@@ -2,7 +2,7 @@ theme: jekyll-theme-minimal
 title: Brewen Couaran
 description: Brewen Couaran's CV
 
-gems:
+plugins:
   - jekyll-font-awesome-sass
 
 font-awesome:
