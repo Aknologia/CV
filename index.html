@@ -9,9 +9,9 @@
   <script>
     lang = window.navigator.language;
     if (lang.startsWith("fr")) {
-      window.location.href = "{{ site.baseurl }}/fr";
+      window.location.href += "/fr";
     } else {
-      window.location.href = "{{ site.baseurl }}/en";
+      window.location.href += "/en";
     }
   </script>
 </body>
