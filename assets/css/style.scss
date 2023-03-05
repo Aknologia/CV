@@ -1,3 +1,11 @@
 ---
 ---
-@import "{{ site.theme }}"
+@import "{{ site.theme }}";
+
+i.fa-github {
+    color: #000;
+}
+
+i.fa-linkedin {
+    color: #0a66c2;
+}
