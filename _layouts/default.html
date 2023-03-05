@@ -7,6 +7,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    {{ content }}
+    <div class="wrapper">
+      <header>
+        <h1>
+          <a href="{{ page.url }}">{{ site.title }}</a>
+        </h1>
+      </header>
+      <section>
+        {{ content }}
+      </section>
+      <footer>
+        <p>
+          This project is maintained by 
+          <a href="https://github.com/Aknologia">@Aknologia</a>
+        </p>
+        <p>
+          <small>
+            Hosted on GitHub Pages — Theme by 
+            <a href="https://github.com/orderedlist">@orderedlist</a>
+          </small>
+        </p>
+      </footer>
+    </div>
+    <script src="/CV/assets/js/scale.fix.js"></script>
   </body>
 </html>
