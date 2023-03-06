@@ -5,6 +5,8 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="{{ site.baseurl }}/assets/js/repo.min.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -38,6 +40,7 @@
         -->
       </header>
       <section>
+        <div id="repo"></div>
         {{ content }}
       </section>
       <footer>
@@ -58,6 +61,15 @@
         </p>
       </footer>
     </div>
+    <script>
+      $(function() {
+        $("#repo").repo({
+          user: 'Aknologia',
+          name: 'Aknologia-DEV',
+          branch: 'master'
+        });
+      });
+    </script>
     <script src="{{ site.baseurl }}/assets/js/scale.fix.js"></script>
   </body>
 </html>
