@@ -29,12 +29,15 @@ title: CV de Brewen Couaran
 
 ## Projets
 
-* **aknologia.dev** :
+* **api.aknologia.dev** :
     * API: [Aknologia/Aknologia.DEV](https://github.com/Aknologia/Aknologia.DEV)
-        * API REST back-end
+        * Prototype d'API REST back-end
+        * [Postman Docs](https://documenter.getpostman.com/view/19755036/UVkvKYV5)
         * Technologies utilisées:
-            * [NestJS](https://nestjs.com/)
-            * [TypeScript](https://www.typescriptlang.org/)
-            * [MongoDB](https://www.mongodb.com/)
-            * [Docker](https://www.docker.com/)
-            * [GitHub Actions](https://github.com/features/actions)
+            * [NestJS](https://nestjs.com/) (Framework)
+            * [TypeScript](https://www.typescriptlang.org/) (Language)
+            * [MongoDB](https://www.mongodb.com/) (Database)
+            * [Docker](https://www.docker.com/) (Containerization)
+            * [GitHub Actions](https://github.com/features/actions) (CI/CD)
+            * [Postman](https://www.postman.com/) (API testing)
+            * [Heroku](https://www.heroku.com/) (Hosting)

@@ -7,7 +7,7 @@ title: Brewen Couaran's CV
 * _Baccalaureate in Science and Technology at the Lycée Sainte-Marie Grand Lebrun_ (2019-2022)
 
 ## Skills
-* _Programming languages_:
+* **Programming languages**:
   * ![C](https://img.shields.io/badge/-C%20(7/10)-A8B9CC?logo=c&logoColor=white)
   * ![C++](https://img.shields.io/badge/-C++%20(6/10)-00599C?logo=cplusplus&logoColor=white)
   * ![Python](https://img.shields.io/badge/-Python%20(9/10)-3776AB?logo=python&logoColor=white)
@@ -19,7 +19,7 @@ title: Brewen Couaran's CV
   * ![PHP](https://img.shields.io/badge/-PHP%20(4/10)-777BB4?logo=php&logoColor=white)
   * ![SQL](https://img.shields.io/badge/-SQL%20(6/10)-4479A1?logo=mysql&logoColor=white)
 
-* _Frameworks_:
+* **Frameworks**:
   * ![React](https://img.shields.io/badge/-React%20(6/10)-61DAFB?logo=react&logoColor=black)
   * ![Vue](https://img.shields.io/badge/-Vue%20(7/10)-4FC08D?logo=vue.js&logoColor=white)
   * ![NestJS](https://img.shields.io/badge/-NestJS%20(8/10)-E0234E?logo=nestjs&logoColor=white)
@@ -29,12 +29,15 @@ title: Brewen Couaran's CV
 
 ## Projects
 
-  * **aknologia.dev** :
+  * **api.aknologia.dev** :
     * API: [Aknologia/Aknologia.DEV](https://github.com/Aknologia/Aknologia.DEV)
-      * API REST back-end
+      * API REST back-end prototype
+      * [Postman Docs](https://documenter.getpostman.com/view/19755036/UVkvKYV5)
       * Used technologies:
-        * [NestJS](https://nestjs.com/)
-        * [TypeScript](https://www.typescriptlang.org/)
-        * [MongoDB](https://www.mongodb.com/)
-        * [Docker](https://www.docker.com/)
-        * [GitHub Actions](https://github.com/features/actions)
+        * [NestJS](https://nestjs.com/) (Framework)
+        * [TypeScript](https://www.typescriptlang.org/) (Language)
+        * [MongoDB](https://www.mongodb.com/) (Database)
+        * [Docker](https://www.docker.com/) (Containerization)
+        * [GitHub Actions](https://github.com/features/actions) (CI/CD)
+        * [Postman](https://www.postman.com/) (API testing)
+        * [Heroku](https://www.heroku.com/) (Hosting)
