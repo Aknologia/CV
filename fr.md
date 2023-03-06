@@ -7,7 +7,7 @@ title: CV de Brewen Couaran
 * Baccalauréat Scientifique au Lycée Sainte-Marie Grand Lebrun (2019-2022)
 
 ## Skills
-* _Langages de programmation_:
+* **Langages de programmation**:
     * ![C](https://img.shields.io/badge/-C%20(7/10)-A8B9CC?logo=c&logoColor=white)
     * ![C++](https://img.shields.io/badge/-C++%20(6/10)-00599C?logo=cplusplus&logoColor=white)
     * ![Python](https://img.shields.io/badge/-Python%20(9/10)-3776AB?logo=python&logoColor=white)
@@ -19,7 +19,7 @@ title: CV de Brewen Couaran
     * ![PHP](https://img.shields.io/badge/-PHP%20(4/10)-777BB4?logo=php&logoColor=white)
     * ![SQL](https://img.shields.io/badge/-SQL%20(6/10)-4479A1?logo=mysql&logoColor=white)
 
-* _Frameworks_:
+* **Framework**:
     * ![React](https://img.shields.io/badge/-React%20(6/10)-61DAFB?logo=react&logoColor=black)
     * ![Vue](https://img.shields.io/badge/-Vue%20(7/10)-4FC08D?logo=vue.js&logoColor=white)
     * ![NestJS](https://img.shields.io/badge/-NestJS%20(8/10)-E0234E?logo=nestjs&logoColor=white)
