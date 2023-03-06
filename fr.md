@@ -7,7 +7,7 @@ title: CV de Brewen Couaran
 * Baccalauréat Scientifique au Lycée Sainte-Marie Grand Lebrun (2019-2022)
 
 ## Skills
-* _Languages de programmation_:
+* _Langages de programmation_:
     * ![C](https://img.shields.io/badge/-C%20(7/10)-A8B9CC?logo=c&logoColor=white)
     * ![C++](https://img.shields.io/badge/-C++%20(6/10)-00599C?logo=cplusplus&logoColor=white)
     * ![Python](https://img.shields.io/badge/-Python%20(9/10)-3776AB?logo=python&logoColor=white)
@@ -35,9 +35,9 @@ title: CV de Brewen Couaran
         * [Postman Docs](https://documenter.getpostman.com/view/19755036/UVkvKYV5)
         * Technologies utilisées:
             * [NestJS](https://nestjs.com/) (Framework)
-            * [TypeScript](https://www.typescriptlang.org/) (Language)
-            * [MongoDB](https://www.mongodb.com/) (Database)
-            * [Docker](https://www.docker.com/) (Containerization)
+            * [TypeScript](https://www.typescriptlang.org/) (Langage)
+            * [MongoDB](https://www.mongodb.com/) (Base de données)
+            * [Docker](https://www.docker.com/) (Conteneurisation)
             * [GitHub Actions](https://github.com/features/actions) (CI/CD)
-            * [Postman](https://www.postman.com/) (API testing)
-            * [Heroku](https://www.heroku.com/) (Hosting)
+            * [Postman](https://www.postman.com/) (Documentation & Tests)
+            * [Heroku](https://www.heroku.com/) (Hébergement)

@@ -39,5 +39,5 @@ title: Brewen Couaran's CV
         * [MongoDB](https://www.mongodb.com/) (Database)
         * [Docker](https://www.docker.com/) (Containerization)
         * [GitHub Actions](https://github.com/features/actions) (CI/CD)
-        * [Postman](https://www.postman.com/) (API testing)
+        * [Postman](https://www.postman.com/) (Documentation & Tests)
         * [Heroku](https://www.heroku.com/) (Hosting)
