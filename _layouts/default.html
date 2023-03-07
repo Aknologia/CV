@@ -21,6 +21,9 @@
           </h1>
         </div>
         <p>
+          <em>{{ page.description }}</em>
+        </p>
+        <p>
           <i class="fa-solid fa-envelope" style="color: #d93025"></i>
           <a href="mailto:{{ site.email }}">EMail</a>
           <i class="fa-brands fa-linkedin" style="color: #0a66c2"></i>
@@ -32,16 +35,11 @@
           <a href="https://www.grepper.com/profile/brewen-c">Grepper</a>
         </p>
         <p>
-          <em>{{ page.description }}</em>
+          <h3>{{ page.disponibilities }}</h3>
+          <p>
+            <b>{{ page.internship }}:</b> {{ page.intership_disp }}
+          </p>
         </p>
-        <!--
-        <p class="view">
-          <a href="https://github.com/Aknologia/CV">
-            View the Project on GitHub
-            <small>Aknologia/CV</small>
-          </a>
-        </p>
-        -->
       </header>
       <section>
         {{ content }}

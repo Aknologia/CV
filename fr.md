@@ -2,6 +2,10 @@
 layout: default
 title: CV de Brewen Couaran
 description: Étudiant en L1 Informatique à l'Université de Bordeaux
+
+availability: Disponibilité
+internship: Stage
+internship_disp: 12 Juin 2023 au 1er Septembre 2023
 ---
 ## Formation
 * Licence 1 Informatique à l'Université de Bordeaux (2022-2023)
@@ -17,7 +21,6 @@ description: Étudiant en L1 Informatique à l'Université de Bordeaux
     * ![TypeScript](https://img.shields.io/badge/-TypeScript%20(8/10)-3178C6?logo=typescript&logoColor=white)
     * ![HTML](https://img.shields.io/badge/-HTML%20(9/10)-E34F26?logo=html5&logoColor=white)
     * ![CSS](https://img.shields.io/badge/-CSS%20(7/10)-1572B6?logo=css3&logoColor=white)
-    * ![PHP](https://img.shields.io/badge/-PHP%20(4/10)-777BB4?logo=php&logoColor=white)
     * ![SQL](https://img.shields.io/badge/-SQL%20(6/10)-4479A1?logo=mysql&logoColor=white)
 
 * **Framework**:
@@ -29,16 +32,14 @@ description: Étudiant en L1 Informatique à l'Université de Bordeaux
     * ![Flutter](https://img.shields.io/badge/-Flutter%20(7/10)-02569B?logo=flutter&logoColor=white)
 
 ## Projets
-
-* **api.aknologia.dev** :
-    * API: [Aknologia/Aknologia.DEV](https://github.com/Aknologia/Aknologia.DEV)
-        * Prototype d'API REST back-end
-        * [Postman Docs](https://documenter.getpostman.com/view/19755036/UVkvKYV5)
-        * Technologies utilisées:
-            * [NestJS](https://nestjs.com/) (Framework)
-            * [TypeScript](https://www.typescriptlang.org/) (Langage)
-            * [MongoDB](https://www.mongodb.com/) (Base de données)
-            * [Docker](https://www.docker.com/) (Conteneurisation)
-            * [GitHub Actions](https://github.com/features/actions) (CI/CD)
-            * [Postman](https://www.postman.com/) (Documentation & Tests)
-            * [Heroku](https://www.heroku.com/) (Hébergement)
+  * **api.aknologia.dev** : [Aknologia/Aknologia.DEV](https://github.com/Aknologia/Aknologia.DEV)
+    * Prototype d'API REST back-end
+    * [Postman Docs](https://documenter.getpostman.com/view/19755036/UVkvKYV5)
+    * Technologies utilisées:
+      * [NestJS](https://nestjs.com/) (Framework)
+      * [TypeScript](https://www.typescriptlang.org/) (Langage)
+      * [MongoDB](https://www.mongodb.com/) (Base de données)
+      * [Docker](https://www.docker.com/) (Conteneurisation)
+      * [GitHub Actions](https://github.com/features/actions) (CI/CD)
+      * [Postman](https://www.postman.com/) (Documentation & Tests)
+      * [Heroku](https://www.heroku.com/) (Hébergement)
