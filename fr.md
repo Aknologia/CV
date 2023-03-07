@@ -14,6 +14,7 @@ internship_disp: 12 Juin 2023 au 1er Septembre 2023
 
 ## Skills
 * **Langages de programmation**:
+  * {{ site.data.skills }}
 {% for lang in site.data.skills.languages %}
   * ![{{ lang.name }}](https://img.shields.io/badge/-{{ lang.name }}%20({{ lang.level }})-{{ lang.color }}?logo={{ lang.slug }}&logoColor={{ lang.font_color }})
 {% endfor %}
