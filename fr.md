@@ -15,7 +15,7 @@ internship_disp: 12 Juin 2023 au 1er Septembre 2023
 ## Skills
 * **Langages de programmation**:
 {% for lang in site.data.skills.languages %}
-  * {{ lang }}
+  * {{ lang.name }}
 {% endfor %}
 
 * **Framework**:
