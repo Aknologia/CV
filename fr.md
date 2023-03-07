@@ -1,6 +1,7 @@
 ---
 layout: default
 title: CV de Brewen Couaran
+description: Étudiant en L1 Informatique à l'Université de Bordeaux
 ---
 ## Formation
 * Licence 1 Informatique à l'Université de Bordeaux (2022-2023)

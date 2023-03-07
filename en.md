@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Brewen Couaran's CV
+description: First Year Computer Science Student at the University of Bordeaux
 ---
 ## Education
 * _Freshman in Computer Science at the University of Bordeaux_ (2022-2023)
