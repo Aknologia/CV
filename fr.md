@@ -5,8 +5,9 @@ title: CV de Brewen Couaran
 description: Étudiant en L1 Informatique à l'Université de Bordeaux
 
 availability: Disponibilité
-internship: Stage
-internship_disp: 12 Juin 2023 au 1er Septembre 2023
+internship:
+  name: Stage
+  date: 12 Juin 2023 au 1er Septembre 2023
 ---
 ## Formation
 * Licence 1 Informatique à l'Université de Bordeaux (2022-2023)

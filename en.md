@@ -5,8 +5,9 @@ title: Brewen Couaran's CV
 description: First Year Computer Science Student at the University of Bordeaux
 
 availability: Availability
-internship: Stage
-internship_disp: 12 Juin 2023 au 1er Septembre 2023
+internship:
+  name: Internship
+  date: 12th June 2023 to 1st September 2023
 ---
 ## Education
 * _Freshman in Computer Science at the University of Bordeaux_ (2022-2023)
