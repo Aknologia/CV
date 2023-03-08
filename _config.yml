@@ -3,25 +3,3 @@ title: Brewen Couaran
 description: Brewen Couaran's CV
 email: brewen.couaran@protonmail.com
 baseurl: "/CV"
-
-# Skills
-## Languages
-skills.c: 6/10
-skills.cpp: 5/10
-skills.python: 7/10
-skills.java: 6/10
-skills.html: 7/10
-skills.css: 6/10
-skills.js: 7/10
-skills.ts: 6/10
-skills.sql: 4/10
-
-## Frameworks
-skills.react: 5/10
-skills.vue: 6/10
-skills.nestjs: 6/10
-skills.flask: 6/10
-skills.express: 7/10
-skills.node: 7/10
-skills.flutter: 5/10
-
