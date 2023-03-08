@@ -64,12 +64,12 @@ frameworks:
   - name: Flask
     level: 6
     slug: flask
-    color: 000000
+    color: black
     font_color: white
   - name: Express
     level: 7
     slug: express
-    color: 000000
+    color: black
     font_color: white
   - name: Node.js
     level: 7
