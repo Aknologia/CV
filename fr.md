@@ -14,19 +14,15 @@ internship:
 * Baccalauréat Scientifique au Lycée Sainte-Marie Grand Lebrun (2019-2022)
 
 ## Skills
-<p>{{ site.data.skills.languages }}</p>
 * **Langages de programmation**:
 {% for lang in site.data.skills.languages %}
-<a>{{ lang.name }}</a>
+    * ![{{ lang.name }}](https://img.shields.io/badge/-{{ lang.name }}%20({{ lang.level }}/10)-{{ lang.color }}?logo={{ lang.slug }}&logoColor={{ lang.font_color }})
 {% endfor %}
 
 * **Framework**:
-    * ![React](https://img.shields.io/badge/-React%20(6/10)-61DAFB?logo=react&logoColor=black)
-    * ![Vue](https://img.shields.io/badge/-Vue%20(7/10)-4FC08D?logo=vue.js&logoColor=white)
-    * ![NestJS](https://img.shields.io/badge/-NestJS%20(8/10)-E0234E?logo=nestjs&logoColor=white)
-    * ![Express](https://img.shields.io/badge/-Express%20(9/10)-000000?logo=express&logoColor=white)
-    * ![Node.js](https://img.shields.io/badge/-Node.js%20(9/10)-339933?logo=node.js&logoColor=white)
-    * ![Flutter](https://img.shields.io/badge/-Flutter%20(7/10)-02569B?logo=flutter&logoColor=white)
+{% for framework in site.data.skills.frameworks %}
+    * ![{{ framework.name }}](https://img.shields.io/badge/-{{ framework.name }}%20({{ framework.level }}/10)-{{ framework.color }}?logo={{ framework.slug }}&logoColor={{ framework.font_color }}) 
+{% endfor %}
 
 ## Projets
   * **api.aknologia.dev** : [Aknologia/Aknologia.DEV](https://github.com/Aknologia/Aknologia.DEV)
