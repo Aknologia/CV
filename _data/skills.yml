@@ -1,11 +1,11 @@
 languages:
   - name: C
-    level: 6
+    level: 5
     slug: c
     color: A8B9CC
     font_color: white
   - name: C++
-    level: 5
+    level: 4
     slug: cpp
     color: 00599C
     font_color: white
@@ -35,7 +35,7 @@ languages:
     color: E34F26
     font_color: white
   - name: CSS
-    level: 6
+    level: 5
     slug: css
     color: 1572B6
     font_color: white
@@ -47,12 +47,12 @@ languages:
 
 frameworks:
   - name: React
-    level: 5
+    level: 4
     slug: react
     color: 61DAFB
     font_color: black
   - name: Vue
-    level: 6
+    level: 5
     slug: vue.js
     color: 4FC08D
     font_color: white
@@ -62,7 +62,7 @@ frameworks:
     color: E0234E
     font_color: white
   - name: Flask
-    level: 6
+    level: 4
     slug: flask
     color: black
     font_color: white
