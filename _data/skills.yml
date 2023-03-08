@@ -31,12 +31,12 @@ languages:
     font_color: white
   - name: HTML
     level: 7
-    slug: html
+    slug: html5
     color: E34F26
     font_color: white
   - name: CSS
     level: 5
-    slug: css
+    slug: css3
     color: 1572B6
     font_color: white
   - name: SQL
