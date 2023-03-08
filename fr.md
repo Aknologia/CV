@@ -36,3 +36,11 @@ internship:
       * [GitHub Actions](https://github.com/features/actions) (CI/CD)
       * [Postman](https://www.postman.com/) (Documentation & Tests)
       * [Heroku](https://www.heroku.com/) (Hébergement)
+  
+  * **aknologia.github.io/CV** : [Aknologia/CV](https://github.com/Aknologia/CV)
+    * Site web statique de mon CV
+    * Technologies utilisées:
+      * [Jekyll](https://jekyllrb.com/) (Framework)
+      * [GitHub Pages](https://pages.github.com/) (Hébergement)
+      * [GitHub Actions](https://github.com/features/actions) (CI/CD)
+      * [Liquid](https://shopify.github.io/liquid/) (Template engine)
