@@ -1,4 +1,4 @@
-- languages:
+languages:
   - name: C
     level: 6/10
     slug: c
@@ -45,7 +45,7 @@
     color: 4479A1
     font_color: white
 
-- frameworks:
+frameworks:
   - name: React
     level: 5/10
     slug: react
