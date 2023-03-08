@@ -16,7 +16,7 @@ internship:
 ## Skills
 * **Langages de programmation**:
 {% for lang in site.data.skills.languages %}
-<a>{{ lang.name }}</a>
+<a>1</a>
 {% endfor %}
 
 * **Framework**:
