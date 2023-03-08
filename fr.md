@@ -13,7 +13,7 @@ internship:
 * Licence 1 Informatique à l'Université de Bordeaux (2022-2023)
 * Baccalauréat Scientifique au Lycée Sainte-Marie Grand Lebrun (2019-2022)
 
-## Skills
+## Compétences
 * **Langages de programmation**:
 {% for lang in site.data.skills.languages %}
     * ![{{ lang.name }}](https://img.shields.io/badge/-{{ lang.name }}%20({{ lang.level }}/10)-{{ lang.color }}?logo={{ lang.slug }}&logoColor={{ lang.font_color }})
