@@ -14,6 +14,7 @@ internship:
 * Baccalauréat Scientifique au Lycée Sainte-Marie Grand Lebrun (2019-2022)
 
 ## Skills
+<p>{{ site.data.skills.languages }}</p>
 * **Langages de programmation**:
 {% for lang in site.data.skills.languages %}
 <a>1</a>
