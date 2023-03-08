@@ -6,7 +6,7 @@ languages:
     font_color: white
   - name: C++
     level: 4
-    slug: cpp
+    slug: cplusplus
     color: 00599C
     font_color: white
   - name: Python
