@@ -5,9 +5,21 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- jQuery
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="{{ page.description }}">
+    <meta name="author" content="{{ site.author }}">
+    <meta name="og:title" content="{{ page.title }}">
+    <meta name="og:description" content="{{ page.description }}">
+    <meta name="og:type" content="website">
+    <meta name="og:url" content="{{ site.url }}">
+    <meta name="og:image" content="{{ site.baseurl }}/assets/img/profile.jpeg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@Aknologia">
+    <meta name="twitter:creator" content="@Aknologia">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.description }}">
+    <meta name="twitter:image" content="{{ site.baseurl }}/assets/img/profile.jpeg">
     <style>
       li, li > p {
         margin-bottom: 0 !important;
