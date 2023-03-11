@@ -2,7 +2,7 @@
 layout: default
 lang: en
 title: Brewen Couaran's CV
-description: First Year Computer Science Student at the University of Bordeaux
+description: First Year Computer Science International Track Student at the University of Bordeaux
 
 availability: Availability
 internship:
@@ -18,12 +18,12 @@ levels:
     expert: Expert
 ---
 ## Presentation
-I'm Brewen Couaran, I'm 18 years old and I'm a first year Computer Science student at the University of Bordeaux.
+I'm Brewen Couaran, I'm 18 years old and I'm a first year Computer Science International Track student at the University of Bordeaux.
 I'm passionate about computer science and new technologies, and I'm always looking for new projects and new experiences.<br>
 I'm currently looking for a 1 or 2 month internship starting from the 12th June 2023.
 ## Education
-* _Freshman in Computer Science at the University of Bordeaux_ (2022-2023)
-* _Baccalaureate in Science and Technology at the Lycée Sainte-Marie Grand Lebrun_ (2019-2022)
+* _Freshman in Computer Science International Track at the University of Bordeaux_ (2022-2023)
+* _Baccalauréat in Science and Technology with merit at Lycée Sainte-Marie Grand Lebrun_ (2019-2022)
 
 ## Skills
 <ul>
