@@ -11,12 +11,16 @@ internship:
 
 levels:
     beginner: Débutant
-    advanced-beginner: Débutant avancé
+    advanced-beginner: Débutant Avancé
     intermediate: Intermédiaire
-    advanced-intermediate: Intermédiaire avancé
+    advanced-intermediate: Intermédiaire Avancé
     advanced: Avancé
     expert: Expert
 ---
+## Présentation
+Je m'appelle Brewen Couaran, j'ai 18 ans et je suis étudiant en L1 Informatique à l'Université de Bordeaux.
+Je suis passionné par l'informatique et les nouvelles technologies, et je suis toujours à la recherche de nouveaux projets et de nouvelles expériences.<br>
+Je suis actuellement à la recherche d'un stage de 1 ou 2 mois à partir du 12 Juin 2023.
 ## Formation
 * Licence 1 Informatique à l'Université de Bordeaux (2022-2023)
 * Baccalauréat Scientifique au Lycée Sainte-Marie Grand Lebrun (2019-2022)
