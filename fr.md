@@ -16,7 +16,27 @@ internship:
 ## Compétences
 * **Langages de programmation**:
 {% for lang in site.data.skills.languages %}
-    * ![{{ lang.name }}](https://img.shields.io/badge/-{{ lang.name }}%20({{ lang.level }}/10)-{{ lang.color }}?logo={{ lang.slug }}&logoColor={{ lang.font_color }})
+<li>
+    <img
+        src="https://img.shields.io/badge/-{{ lang.name }}-{{ lang.color }}?logo={{ lang.slug }}&logoColor={{ lang.font_color }}"
+        alt="{{ lang.name }}"
+    />
+    {% if lang.level == 1 %}
+        Débutant
+    {% endif %}
+    {% if lang.level == 1.5 %}
+        Débutant avancé
+    {% endif %}
+    {% if lang.level == 2 %}
+        Confirmé
+    {% endif %}
+    {% if lang.level == 2.5 %}
+        Confirmé avancé
+    {% endif %}
+    {% if lang.level == 3 %}
+        Expert
+    {% endif %}
+</li>
 {% endfor %}
 
 * **Framework**:
