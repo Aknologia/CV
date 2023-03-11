@@ -25,61 +25,55 @@ levels:
 <ul>
 <li>
     <p><strong>Langages de programmation</strong>:</p>
-    {% for lang in site.data.skills.languages %}
-    <li>
-        <img
-            src="https://img.shields.io/badge/-{{ lang.name }}-{{ lang.color }}?logo={{ lang.slug }}&logoColor={{ lang.font_color }}"
-            alt="{{ lang.name }}"
-        />
-        {% if lang.level == 1 %}
-            {{ page.levels.beginner }}
-        {% endif %}
-        {% if lang.level == 1.5 %}
-            {{ page.levels.advanced-beginner }}
-        {% endif %}
-        {% if lang.level == 2 %}
-            {{ page.levels.intermediate }}
-        {% endif %}
-        {% if lang.level == 2.5 %}
-            {{ page.levels.advanced-intermediate }}
-        {% endif %}
-        {% if lang.level == 3 %}
-            {{ page.levels.advanced }}
-        {% endif %}
-        {% if lang.level == 4 %}
-            {{ page.levels.expert }}
-        {% endif %}
-    </li>
-    {% endfor %}
+    <ul>
+        {% for lang in site.data.skills.languages %}
+        <li>
+            <img
+                src="https://img.shields.io/badge/-{{ lang.name }}-{{ lang.color }}?logo={{ lang.slug }}&logoColor={{ lang.font_color }}"
+                alt="{{ lang.name }}"
+            />
+            {% if lang.level == 1 %}
+                {{ page.levels.beginner }}
+            {% elsif lang.level == 1.5 %}
+                {{ page.levels.advanced-beginner }}
+            {% elsif lang.level == 2 %}
+                {{ page.levels.intermediate }}
+            {% elsif lang.level == 2.5 %}
+                {{ page.levels.advanced-intermediate }}
+            {% elsif lang.level == 3 %}
+                {{ page.levels.advanced }}
+            {% elsif lang.level == 4 %}
+                {{ page.levels.expert }}
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
 </li>
 <li>
     <p><strong>Frameworks</strong>:</p>
-    {% for framework in site.data.skills.frameworks %}
-    <li>
-        <img
-            src="https://img.shields.io/badge/-{{ framework.name }}-{{ framework.color }}?logo={{ framework.slug }}&logoColor={{ framework.font_color }}"
-            alt="{{ framework.name }}"
-        />
-        {% if framework.level == 1 %}
-            {{ page.levels.beginner }}
-        {% endif %}
-        {% if framework.level == 1.5 %}
-            {{ page.levels.advanced-beginner }}
-        {% endif %}
-        {% if framework.level == 2 %}
-            {{ page.levels.intermediate }}
-        {% endif %}
-        {% if framework.level == 2.5 %}
-            {{ page.levels.advanced-intermediate }}
-        {% endif %}
-        {% if framework.level == 3 %}
-            {{ page.levels.advanced }}
-        {% endif %}
-        {% if framework.level == 4 %}
-            {{ page.levels.expert }}
-        {% endif %}
-    </li>
-    {% endfor %}
+    <ul>
+        {% for framework in site.data.skills.frameworks %}
+        <li>
+            <img
+                src="https://img.shields.io/badge/-{{ framework.name }}-{{ framework.color }}?logo={{ framework.slug }}&logoColor={{ framework.font_color }}"
+                alt="{{ framework.name }}"
+            />
+            {% if framework.level == 1 %}
+                {{ page.levels.beginner }}
+            {% elsif framework.level == 1.5 %}
+                {{ page.levels.advanced-beginner }}
+            {% elsif framework.level == 2 %}
+                {{ page.levels.intermediate }}
+            {% elsif framework.level == 2.5 %}
+                {{ page.levels.advanced-intermediate }}
+            {% elsif framework.level == 3 %}
+                {{ page.levels.advanced }}
+            {% elsif framework.level == 4 %}
+                {{ page.levels.expert }}
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
 </li>
 </ul>
 
