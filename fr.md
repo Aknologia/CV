@@ -24,7 +24,7 @@ levels:
 ## Compétences
 <ul>
 <li>
-    <p><strong>Langages de programmation</strong>:</p>
+    <p class="subtitle"><strong>Langages de programmation</strong>:</p>
     <ul>
         {% for lang in site.data.skills.languages %}
         <li class="skill">
@@ -52,27 +52,29 @@ levels:
     </ul>
 </li>
 <li>
-    <p><strong>Frameworks</strong>:</p>
+    <p class="subtitle"><strong>Frameworks</strong>:</p>
     <ul>
         {% for framework in site.data.skills.frameworks %}
-        <li>
+        <li class="skill">
             <img
                 src="https://img.shields.io/badge/-{{ framework.name }}-{{ framework.color }}?logo={{ framework.slug }}&logoColor={{ framework.font_color }}"
                 alt="{{ framework.name }}"
             />
-            {% if framework.level == 1 %}
-                {{ page.levels.beginner }}
-            {% elsif framework.level == 1.5 %}
-                {{ page.levels.advanced-beginner }}
-            {% elsif framework.level == 2 %}
-                {{ page.levels.intermediate }}
-            {% elsif framework.level == 2.5 %}
-                {{ page.levels.advanced-intermediate }}
-            {% elsif framework.level == 3 %}
-                {{ page.levels.advanced }}
-            {% elsif framework.level == 4 %}
-                {{ page.levels.expert }}
-            {% endif %}
+            <p>
+                {% if framework.level == 1 %}
+                    {{ page.levels.beginner }}
+                {% elsif framework.level == 1.5 %}
+                    {{ page.levels.advanced-beginner }}
+                {% elsif framework.level == 2 %}
+                    {{ page.levels.intermediate }}
+                {% elsif framework.level == 2.5 %}
+                    {{ page.levels.advanced-intermediate }}
+                {% elsif framework.level == 3 %}
+                    {{ page.levels.advanced }}
+                {% elsif framework.level == 4 %}
+                    {{ page.levels.expert }}
+                {% endif %}
+            </p>
         </li>
         {% endfor %}
     </ul>
