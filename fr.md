@@ -6,43 +6,82 @@ description: Étudiant en L1 Informatique à l'Université de Bordeaux
 
 availability: Disponibilité
 internship:
-  name: Stage
-  date: 12 Juin 2023 au 1er Septembre 2023
+    name: Stage
+    date: 12 Juin 2023 au 1er Septembre 2023
+
+levels:
+    beginner: Débutant
+    advanced-beginner: Débutant avancé
+    intermediate: Intermédiaire
+    advanced-intermediate: Intermédiaire avancé
+    advanced: Avancé
+    expert: Expert
 ---
 ## Formation
 * Licence 1 Informatique à l'Université de Bordeaux (2022-2023)
 * Baccalauréat Scientifique au Lycée Sainte-Marie Grand Lebrun (2019-2022)
 
 ## Compétences
-* **Langages de programmation**:
-{% for lang in site.data.skills.languages %}
+<ul>
 <li>
-    <img
-        src="https://img.shields.io/badge/-{{ lang.name }}-{{ lang.color }}?logo={{ lang.slug }}&logoColor={{ lang.font_color }}"
-        alt="{{ lang.name }}"
-    />
-    {% if lang.level == 1 %}
-        Débutant
-    {% endif %}
-    {% if lang.level == 1.5 %}
-        Débutant avancé
-    {% endif %}
-    {% if lang.level == 2 %}
-        Confirmé
-    {% endif %}
-    {% if lang.level == 2.5 %}
-        Confirmé avancé
-    {% endif %}
-    {% if lang.level == 3 %}
-        Expert
-    {% endif %}
+    <p><strong>Langages de programmation</strong>:</p>
+    {% for lang in site.data.skills.languages %}
+    <li>
+        <img
+            src="https://img.shields.io/badge/-{{ lang.name }}-{{ lang.color }}?logo={{ lang.slug }}&logoColor={{ lang.font_color }}"
+            alt="{{ lang.name }}"
+        />
+        {% if lang.level == 1 %}
+            {{ page.levels.beginner }}
+        {% endif %}
+        {% if lang.level == 1.5 %}
+            {{ page.levels.advanced-beginner }}
+        {% endif %}
+        {% if lang.level == 2 %}
+            {{ page.levels.intermediate }}
+        {% endif %}
+        {% if lang.level == 2.5 %}
+            {{ page.levels.advanced-intermediate }}
+        {% endif %}
+        {% if lang.level == 3 %}
+            {{ page.levels.advanced }}
+        {% endif %}
+        {% if lang.level == 4 %}
+            {{ page.levels.expert }}
+        {% endif %}
+    </li>
+    {% endfor %}
 </li>
-{% endfor %}
-
-* **Framework**:
-{% for framework in site.data.skills.frameworks %}
-    * ![{{ framework.name }}](https://img.shields.io/badge/-{{ framework.name }}%20({{ framework.level }}/10)-{{ framework.color }}?logo={{ framework.slug }}&logoColor={{ framework.font_color }}) 
-{% endfor %}
+<li>
+    <p><strong>Frameworks</strong>:</p>
+    {% for framework in site.data.skills.frameworks %}
+    <li>
+        <img
+            src="https://img.shields.io/badge/-{{ framework.name }}-{{ framework.color }}?logo={{ framework.slug }}&logoColor={{ framework.font_color }}"
+            alt="{{ framework.name }}"
+        />
+        {% if framework.level == 1 %}
+            {{ page.levels.beginner }}
+        {% endif %}
+        {% if framework.level == 1.5 %}
+            {{ page.levels.advanced-beginner }}
+        {% endif %}
+        {% if framework.level == 2 %}
+            {{ page.levels.intermediate }}
+        {% endif %}
+        {% if framework.level == 2.5 %}
+            {{ page.levels.advanced-intermediate }}
+        {% endif %}
+        {% if framework.level == 3 %}
+            {{ page.levels.advanced }}
+        {% endif %}
+        {% if framework.level == 4 %}
+            {{ page.levels.expert }}
+        {% endif %}
+    </li>
+    {% endfor %}
+</li>
+</ul>
 
 ## Projets
   * **api.aknologia.dev** : [Aknologia/Aknologia.DEV](https://github.com/Aknologia/Aknologia.DEV)
