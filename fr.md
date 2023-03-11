@@ -27,24 +27,26 @@ levels:
     <p><strong>Langages de programmation</strong>:</p>
     <ul>
         {% for lang in site.data.skills.languages %}
-        <li>
+        <li class="skill">
             <img
                 src="https://img.shields.io/badge/-{{ lang.name }}-{{ lang.color }}?logo={{ lang.slug }}&logoColor={{ lang.font_color }}"
                 alt="{{ lang.name }}"
             />
-            {% if lang.level == 1 %}
-                {{ page.levels.beginner }}
-            {% elsif lang.level == 1.5 %}
-                {{ page.levels.advanced-beginner }}
-            {% elsif lang.level == 2 %}
-                {{ page.levels.intermediate }}
-            {% elsif lang.level == 2.5 %}
-                {{ page.levels.advanced-intermediate }}
-            {% elsif lang.level == 3 %}
-                {{ page.levels.advanced }}
-            {% elsif lang.level == 4 %}
-                {{ page.levels.expert }}
-            {% endif %}
+            <p>
+                {% if lang.level == 1 %}
+                    {{ page.levels.beginner }}
+                {% elsif lang.level == 1.5 %}
+                    {{ page.levels.advanced-beginner }}
+                {% elsif lang.level == 2 %}
+                    {{ page.levels.intermediate }}
+                {% elsif lang.level == 2.5 %}
+                    {{ page.levels.advanced-intermediate }}
+                {% elsif lang.level == 3 %}
+                    {{ page.levels.advanced }}
+                {% elsif lang.level == 4 %}
+                    {{ page.levels.expert }}
+                {% endif %}
+            </p>
         </li>
         {% endfor %}
     </ul>
